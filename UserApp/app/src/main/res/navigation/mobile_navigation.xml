@@ -3,41 +3,41 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/mobile_navigation"
-    app:startDestination="@+id/nav_home">
+    app:startDestination="@+id/nav_dashboard">
 
     <fragment
-        android:id="@+id/nav_home"
+        android:id="@+id/nav_dashboard"
         android:name="com.example.userapp.ui.home.HomeFragment"
-        android:label="@string/menu_home"
+        android:label="Dashboard"
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
+        android:id="@+id/nav_points"
         android:name="com.example.userapp.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:label="Buy Coupons"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
+        android:id="@+id/nav_transactions"
         android:name="com.example.userapp.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
+        android:label="My Transactions"
         tools:layout="@layout/fragment_slideshow" />
 
     <fragment
-        android:id="@+id/nav_tools"
+        android:id="@+id/nav_profile"
         android:name="com.example.userapp.ui.tools.ToolsFragment"
-        android:label="@string/menu_tools"
+        android:label="My profile"
         tools:layout="@layout/fragment_tools" />
 
     <fragment
-        android:id="@+id/nav_share"
+        android:id="@+id/nav_helpdesk"
         android:name="com.example.userapp.ui.share.ShareFragment"
-        android:label="@string/menu_share"
+        android:label="HelpDesk"
         tools:layout="@layout/fragment_share" />
 
     <fragment
-        android:id="@+id/nav_send"
+        android:id="@+id/nav_complaint"
         android:name="com.example.userapp.ui.send.SendFragment"
-        android:label="@string/menu_send"
+        android:label="Submit a Complaint"
         tools:layout="@layout/fragment_send" />
 </navigation>
